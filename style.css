@@ -2,11 +2,10 @@
 body{
     
   font-family: "Helvetica", Arial, sans-serif;
-    background-image:url("Picsart_23-11-04_01-04-57-874.jpg");
+    background-image:url("back.jpg");
     background-repeat:no-repeat;
     background-position:center;
     background-size:cover;
-    
 }
 .h2{
  padding: 1px 1px;
@@ -27,9 +26,10 @@ height:150px;
     color: #ffffff;
     padding: 5px 5px;
     font-size:15px;
+    
 }
 
-}
+
 .but{
     text-align:center;
 }
@@ -46,53 +46,23 @@ height:150px;
         }
 
         /* Style the dropdown content (hidden by default) */
-        .dropdown-content {
-            display: none;
-            position: absolute;
-            background-color:rgba(0, 0, 0, 0.5);
-            min-width: 100px;
-            min-height:5px;
-            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-            z-index: 1;
-            font-color:black;
-            border-radius:0px;
-      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-           
-        }
-.dropdown:hover .dropdown-content {
-    display: block;
-    
-        }
+ 
+        
 .btn{
     font-color:white;
     background-color:rgba(0, 0, 0, 0.5);
 }
 .mapy{
-  padding: 10px 20px;
+  padding: 5px 1px;
    text-align:center;
     border-radius: 5px;
     color: #ffffff;
-    padding: 5px 10px;
     font-size:10px;
     border:none;
-  margin-top: 3px;
-  margin-right: 190px;
-  margin-bottom: 3px;
-  margin-left: 190px;
+
   
       background-color:rgba(0, 0, 0, 0.5);
-
-}
-.dropdown {
-    position: relative;
-    display: inline-block;
-    text-align:center;
-    font-color:white;
-    background-color:rgba(0, 0, 0, 0.0);;
-   font-size:60px;
-   min-width:50px;
-   min-height:50px;
-}
+}#42445A
    .link{
      color: white ;
      background-color:rgba(0, 0, 0, 0.5);
@@ -103,4 +73,49 @@ height:150px;
      text-align: center;
      color:black;
      font-size:10px;
+     color:white;
    }
+      /* Style the menu button */
+        .navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+/*Menu*/
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
